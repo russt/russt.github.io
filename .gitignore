@@ -1,0 +1,12 @@
+xx*
+yy*
+zz*
+foo*
+junk*
+/man
+bld*/
+/trash*/
+~*
+*.swp
+.projectrc
+.vimlist
