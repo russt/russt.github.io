@@ -1,14 +1,33 @@
-# Site settings
-title: russt on github
-email: russt@releasetools.org
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://russt.github.io" # the base hostname & protocol for your site
+exclude:
+  - .vimlist
+  - .projectrc
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - "*.txt"
+  - xx*
+  - yy* 
+  - zz*
+  - "*.log"
+  - "*.out"
+  - junk*
+
+encoding: UTF-8
+
+future:      false
+lsi:         false
+highlighter: pygments
+
+permalink:   date
+markdown:    kramdown
+excerpt_separator: "\n\n"
+
+author:    russt
+name:      Russ Tremian
+email: tweet@me
 twitter_username: russtman
 github_username:  russt
 
-# Build settings
-markdown: kramdown
+url: "http://russt.github.io" # the base hostname & protocol for your site
+title: russt on github
+description: "russt software projects"
