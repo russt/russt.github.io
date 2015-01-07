@@ -1,3 +1,9 @@
+#####
+#keep these private for now..
+TODO.txt
+.projectrc
+.vimlist
+#####
 xx*
 yy*
 zz*
@@ -8,5 +14,7 @@ bld*/
 /trash*/
 ~*
 *.swp
-.projectrc
-.vimlist
+*.log
+#created by: jekyll new .
+_site
+.sass-cache
