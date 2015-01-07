@@ -4,17 +4,15 @@ TODO.txt
 .projectrc
 .vimlist
 #####
-xx*
-yy*
-zz*
-foo*
-junk*
-/man
-bld*/
+/xx*
+/yy*
+/zz*
+/foo*
+/junk*
+/*.log
 /trash*/
 ~*
 *.swp
-*.log
 #created by: jekyll new .
 #note:  the _site dir is created on github whenever the source is updated.
 _site
