@@ -1,3 +1,6 @@
+source:  .
+baseurl: ""
+
 exclude:
   - .vimlist
   - .projectrc
@@ -12,22 +15,15 @@ exclude:
   - "*.out"
   - junk*
 
-encoding: UTF-8
 
-future:      false
-lsi:         false
-highlighter: pygments
+title: russt on github
+description: "russt software projects"
 
-permalink:   date
-markdown:    kramdown
-excerpt_separator: "\n\n"
-
-author:    russt
 name:      Russ Tremian
+author:    russt
 email: tweet@me
 twitter_username: russtman
 github_username:  russt
 
-url: "http://russt.github.io/" # the base hostname & protocol for your site
-title: russt on github
-description: "russt software projects"
+# the base hostname & protocol for your site
+#url: "http://russt.github.io/"
